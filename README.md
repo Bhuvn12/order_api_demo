@@ -27,7 +27,7 @@ order.js is using order_data1 for crud operation on order_info table.
 
 # Api request url for order.js
 1- GET() :- http://localhost:3000/api1/getorder 2 restaurant_id(params)
-2- POST() Upsert request :- localhost:3000/api1/placeorder accept json body having keys as follows.
+2- POST() Upsert request :- http://localhost:3000/api1/placeorder accept json body having keys as follows.
 user_id : number
 restaurant_id: number
 item_id: number
@@ -38,7 +38,7 @@ unit_price: number
 qauntity: number
 restaurant_city: string
 
-3-DELETE():- localhost:3000/api1/deleteorder 3(order_id)  
+3-DELETE():- http://localhost:3000/api1/deleteorder 3(order_id)  
 order_id pass in params
 
 
@@ -50,12 +50,12 @@ order2.js is using order_data2 fro crud operation.
 
 # Api request url for order2.js
 1- GET() :- http://localhost:3000/api2/getorder 2 restaurant_id(params)
-2- POST() Upsert request :- localhost:3000/api2/placeorder accept json body having keys as follows.
+2- POST() Upsert request :- http://localhost:3000/api2/placeorder accept json body having keys as follows.
 user_id : number
 restaurant_id: number
 item_id: number
 qauntity: number
 
 
-3-DELETE():- localhost:3000/api2/deleteorder 3(order_id)
+3-DELETE():- http://localhost:3000/api2/deleteorder 3(order_id)
 order_id pass in params
