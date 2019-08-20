@@ -10,7 +10,16 @@ node server.js
 
 # structure
 We have 2 directories inside root directory.
-# 1- Connection  2-routes
+# 1- Connection  2-routes 3-database sql files
+
+# connection with database
+Root contains config_con.js file for connection properties.
+Change following variables if required
+var mysqlHost="localhost";
+var mysqlPwd="root";
+var mysqlUser="root";
+var mysqldatabase="order_data1";
+var mysqldatabase2="order_data2";
 
 # Connection:-  
 connection script with mysql . This folder contains 2 connection file.
